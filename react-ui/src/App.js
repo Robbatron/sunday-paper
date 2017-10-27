@@ -43,7 +43,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header title="The Trilogy Times" weather={false} />
+        <Header title="The Trilogy Times" weather={true} />
         <Masonry>
           {
             this.state.articles.slice(0).reverse().map((d, i) =>
